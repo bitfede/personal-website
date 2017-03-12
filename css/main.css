@@ -95,10 +95,16 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.welcome {
+    color: white;
+    font-weight: 900;
+}
 
-
-
-
+.tester {
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
 
 
 
