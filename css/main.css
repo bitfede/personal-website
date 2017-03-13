@@ -110,14 +110,24 @@ textarea {
     color: white;
     font-size: 30px;
     font-weight: 900;
+    padding-bottom: 100px;
 }
 
 .menulink {
+    transition: color 0.5s ease;
     color: white;
 }
 
 .menulink:hover {
-    /*ua man*/
+    color: #1a237e;
+}
+
+.menulistitem {
+    opacity: 0;
+}
+
+.skillona {
+    opacity: 0;
 }
 
 .circleSkill {
@@ -130,14 +140,39 @@ textarea {
 }
 
 .descrSkill {
+    margin-top: 0px;
     color: white;
 }
 
 .skillIcon {
     width: 90px;
     margin-top: 25px;
-    fill: #1976D2;
 }
+
+.boutme {
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.side-nav li {
+    line-height: 25px;
+}
+
+.closeSidNav {
+    position: absolute;
+    top: 200px;
+    right: 240px;
+    z-index: 500;
+}
+
+.contactIcons {
+    width: 50px;
+    margin-top: 25px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+ /*effect on menu elements*/
 
 
 

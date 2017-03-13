@@ -3,15 +3,14 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>Fede's Website</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
         <!-- materialize icons -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -19,7 +18,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- Compiled and minified Materialized CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
-
+        <!-- MY CSS -->
+        <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
     </head>
@@ -36,46 +36,46 @@
 
         <div class="row left-align" style="margin-bottom: 0px;">
             <div class="col s12 m4">
-                <h1 class="welcome">Welcome,</h1>
+                <h1 id="welcome" class="welcome" style="margin-top: 20px; opacity: 0">Welcome,</h1>
             </div>
         </div>
 
         <!-- I'm fede defa -->
 
         <div class="row">
-            <div class="col s12 m10 offset-m3">
-                <h1 class="welcome">I'm Federico Giorgio De Faveri</h1>
+            <div class="col s12 m10 offset-m2">
+                <h1 id="fede" class="welcome" style="margin-top: 0px; margin-bottom: 20px; opacity: 0">I'm Federico Giorgio De Faveri:</h1>
             </div>
         </div>
 
         <!-- menu left, circles right -->
 
-        <div class="row">
+        <div class="row valign-wrapper" style="margin-bottom: 0px">
 
             <!-- menu -->
             <div class="col s12 m2">
                 <ul class="menulist">
-                    <a href="" class="menulink"><li>ABOUT</li></a>
-                    <a href="" class="menulink"><li>HOBBIES</li></a>
-                    <a href="" class="menulink"><li>CONTACT</li></a>
+                    <a id="about" href="#" data-activates="slide-out" class="menulink"><li class="menulistitem">ABOUT</li></a>
+                    <!-- <a href="" class="menulink"><li>HOBBIES</li></a> -->
+                    <a href="#modal1" class="menulink"><li class="menulistitem">CONTACT</li></a>
                 </ul>
             </div>
             <!-- circles -->
             <div class="col s12 m9 offset-m1 center-align">
-                <div class="row">
-                    <div class="col s12 m4">
+                <div class="row" style="margin-bottom: 0px">
+                    <div id="eng" class="col s12 m4 skillona">
                         <div class="circleSkill">
                             <img class="skillIcon" src="img/engineer.svg">
                         </div>
                         <p class="descrSkill">Engineer</p>
                     </div>
-                    <div class="col s12 m4">
+                    <div id="dev" class="col s12 m4 skillona">
                         <div class="circleSkill">
                             <img class="skillIcon" src="img/software-engineer.svg">
                         </div>
                         <p class="descrSkill">Full-Stack Software Developer</p>
                     </div>
-                    <div class="col s12 m4">
+                    <div id="exphys" class="col s12 m4 skillona">
                         <div class="circleSkill">
                             <img class="skillIcon" src="img/laboratory.svg">
                         </div>
@@ -83,19 +83,19 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col s12 m4">
+                    <div id="team" class="col s12 m4 skillona">
                         <div class="circleSkill">
                             <img class="skillIcon" src="img/position.svg">
                         </div>
                         <p class="descrSkill">Team Player</p>
                     </div>
-                    <div class="col s12 m4">
+                    <div id="fast" class="col s12 m4 skillona">
                         <div class="circleSkill">
                             <img class="skillIcon" src="img/fighter-jet.svg">
                         </div>
                         <p class="descrSkill">Fast Learner</p>
                     </div>
-                    <div class="col s12 m4">
+                    <div id="pset" class="col s12 m4 skillona">
                         <div class="circleSkill">
                             <img class="skillIcon" src="img/relativity.svg">
                         </div>
@@ -105,18 +105,43 @@
             </div>
         </div>
 
-
-
-
-
-
-
-
-
-
-
-
         </div>
+
+        <!-- SIDE MENU: About -->
+
+  <ul id="slide-out" class="side-nav">
+    <li><div class="userView">
+      <div class="background">
+        <img src="img/blurryback.jpg" width="100%">
+      </div>
+      <a href="#!user"><img class="circle" src="img/fede-helmet.jpg"></a>
+      <a href="#!name"><span class="white-text name">Federico Giorgio De Faveri</span></a>
+      <span class="white-text email"></span>
+    </div></li>
+    <li><h5 class="boutme" style="margin-top: 20px">About Me 👋🏼</h5></li>
+    <li><p class="boutme">100% Made in Italy 🇮🇹, born and raised in Monza. I Moved to Miami in 2010 to attend University and graduated Cum Laude in 2014 with a degree in Exercise Physiology and Chemistry.<br><br> After dedicating two years to medical research I fell in love with the art of programming and software engineering. I now strive to build beautiful, functional and lightweight digital products</p></li>
+    <li><div class="divider"></div></li>
+    <li><h6 class="boutme" style="margin-top: 20px"><strong>My Favourite Quote:</strong></h6></li>
+    <li><blockquote class=""><i>"Formal education will make you a living; self-education will make you a fortune."</i></blockquote></li>
+  </ul>
+
+
+<!-- BOTTOM SHEET MODAL, CONTACT -->
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal bottom-sheet">
+    <div class="modal-content">
+      <h4>Contact Me:</h4>
+      <p class="center-align">
+        <a class="socialicon" target="_blank" href="https://www.linkedin.com/in/fededefa/" data-position="left" data-delay="50" data-tooltip="Click To See My LinkedIn Profile"><img class="contactIcons" src="img/linkedin.svg"></a>
+        <a class="socialicon" target="_blank" href="https://github.com/bitfede" data-position="right" data-delay="50" data-tooltip="Click To See My Public Github Repos"><img class="contactIcons" src="img/github.svg"></a>
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+
         <!-- END DOCUMENT -->
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
