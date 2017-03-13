@@ -106,13 +106,38 @@ textarea {
     border-color: black;
 }
 
+.menulist {
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+}
 
+.menulink {
+    color: white;
+}
 
+.menulink:hover {
+    /*ua man*/
+}
 
+.circleSkill {
+    display: inline-block;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+    border-radius: 50%;
+}
 
+.descrSkill {
+    color: white;
+}
 
-
-
+.skillIcon {
+    width: 90px;
+    margin-top: 25px;
+    fill: #1976D2;
+}
 
 
 
