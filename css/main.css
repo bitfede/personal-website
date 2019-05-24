@@ -92,8 +92,21 @@ textarea {
 }
 
 /* ==========================================================================
+   ==========================================================================
    Author's custom styles
+   ==========================================================================
    ========================================================================== */
+
+.backgroundBody {
+  background: linear-gradient(270deg, #1976d2, #1c8eff, #0064ff);
+  background-size: 600% 600%;
+
+  /* https://www.gradient-animator.com/ */
+  -webkit-animation: personalWebBkgr 15s ease infinite;
+  -moz-animation: personalWebBkgr 15s ease infinite;
+  -o-animation: personalWebBkgr 15s ease infinite;
+  animation: personalWebBkgr 15s ease infinite;
+}
 
 .welcome {
     color: white;
@@ -175,6 +188,28 @@ textarea {
  /*effect on menu elements*/
 
 
+/* ANIMATIONS */
+
+@-webkit-keyframes personalWebBkgr {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes personalWebBkgr {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes personalWebBkgr {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes personalWebBkgr {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
 
 
 /* ==========================================================================
