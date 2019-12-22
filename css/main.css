@@ -97,6 +97,10 @@ textarea {
    ==========================================================================
    ========================================================================== */
 
+
+/* INDEX PAGE GOES HERE */
+
+
 .backgroundBody {
   background: linear-gradient(270deg, #1976d2, #1c8eff, #0064ff);
   background-size: 600% 600%;
@@ -187,6 +191,22 @@ textarea {
 
  /*effect on menu elements*/
 
+/* PORTFOLIO PAGE STYLES HERE */
+.portfolioCards {
+  border:1px solid white;
+  margin: 6vw;
+}
+
+.topleftIcon {
+  padding: 10px;
+  background-color: yellow;
+  position: relative;
+  right: 27px;
+  top: -13px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+}
 
 /* ANIMATIONS */
 
