@@ -192,20 +192,61 @@ textarea {
  /*effect on menu elements*/
 
 /* PORTFOLIO PAGE STYLES HERE */
-.portfolioCards {
-  border:1px solid white;
-  margin: 6vw;
+
+.welcomeportfolio {
+    color: white;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.topleftIcon {
+.welcomesubtitle {
+  font-size: 2rem;
+  color: white;
+  margin: 0;
+}
+
+
+.portfolioCards {
+  border: 3px solid white;
+  margin: 5px;
+  margin-top: 5vh;
+  border-radius: 5px;
+}
+
+.projectInfo {
+  padding: 15px;
+  color: white;
+}
+
+.projectInfo h3 {
+  margin-top: 0;
+  font-size: 1.8rem;
+  text-decoration: underline;
+}
+
+/* .topleftIcon {
   padding: 10px;
   background-color: yellow;
   position: relative;
-  right: 27px;
-  top: -13px;
-  width: 90px;
-  height: 90px;
+  right: 29px;
+  top: -30px;
+  width: 70px;
+  height: 70px;
   border-radius: 50px;
+} */
+
+
+.skillBadge {
+  display: inline-block;
+  background-color: red;
+  padding: 3px;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+@media (min-) {
+
 }
 
 /* ANIMATIONS */
