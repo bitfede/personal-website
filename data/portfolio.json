@@ -1,0 +1,98 @@
+[
+  {
+    "title": "NotarX - Decentralized File Notary",
+    "description1": "NotarX is a decentralized appplication (dApp) that can certify a file instantly using a smart contract deployed on the Ethereum blockchain. The dApp takes the file hash locally and writes it into the blockchain with a timestamp",
+    "lessons learned": "Learned how to take a problem and solve it using blockchain technology. Also learned how to choose the best blockchain for specific use cases",
+    "category": "Blockchain",
+    "images": [
+      "notarx-img-1.jpg",
+      "notarx-img-2.jpg",
+      "notarx-img-3.jpg",
+      "notarx-img-4.jpg"
+    ],
+    "skills": [
+      "Blockchain", "Ethereum", "Smart Contract Developer", "Solidity", "Decentralized Architecture", "React", "Javascript"
+    ],
+    "status": {
+      "label": "Active",
+      "details": "This project is now released on the ropstein testnet"
+    },
+    "links": {
+      "demo": "https://notarx.com",
+      "source code": "https://github.com/bitfede/file-validation-certification-dapp",
+      "press": ["https://blockchainlion.com/blockchain-notary-5-minute-file-certification-without-intermediaries/"]
+    }
+  },
+  {
+    "title": "BlockchainLion",
+    "description1": "A blog that accumulates knowledge on blockchain related topics. The contents are curated by me and the articles all serve to explain various topic related to decentralized technologies and cryptocurrencies",
+    "lessons learned": "Learned how to assimilate complex technical concepts and summarize them as easy-to-read articles. Also learned how to get traffic to my blog through SEO and some social media",
+    "category": "Blockchain",
+    "images": [
+      "blockchainlion-img-1.jpg",
+      "blockchainlion-img-2.jpg",
+      "blockchainlion-img-3.jpg",
+      "blockchainlion-img-4.jpg"
+    ],
+    "skills": [
+      "Wordpress", "Technical Blogging", "PHP", "SQL", "PHPmyadmin", "SEO"
+    ],
+    "status": {
+      "label": "Active",
+      "details": "This project is active. I write articles whenever I have free time."
+    },
+    "links": {
+      "demo": "https://blockchainlion.com",
+      "source code": "",
+      "press": ["https://medium.com/digital-diplomacy/blockchain-and-government-can-they-work-together-c57e574c6d09"]
+    }
+  },
+  {
+    "title": "Decentralized Voting dApp",
+    "description1": "A simple barebone voting web application that allows you to run a votation using the blockchain technology as its backbone. Specifically, the web app interacts with a smart contract deployed on the ethereum blockchain in order to register and retrieve votes",
+    "lessons learned": "This was the first dApp that I developed. It was a great introduction to smart contract programming",
+    "category": "Blockchain",
+    "images": [
+      "blockchainlion-img-1.jpg",
+      "blockchainlion-img-2.jpg",
+      "blockchainlion-img-3.jpg",
+      "blockchainlion-img-4.jpg"
+    ],
+    "skills": [
+      "Wordpress", "Technical Blogging", "PHP", "SQL", "PHPmyadmin"
+    ],
+    "status": {
+      "label": "Active",
+      "details": "This project is active. I write articles whenever I have free time."
+    },
+    "links": {
+      "demo": "https://blockchainlion.com",
+      "source code": "",
+      "press": ["https://medium.com/digital-diplomacy/blockchain-and-government-can-they-work-together-c57e574c6d09"]
+    }
+  },
+  {
+    "title": "Decentralized Voting dApp",
+    "description1": "A simple barebone voting web application that allows you to run a votation using the blockchain technology as its backbone. Specifically, the web app interacts with a smart contract deployed on the ethereum blockchain in order to register and retrieve votes",
+    "lessons learned": "This was the first dApp that I developed",
+    "category": "Blockchain",
+    "images": [
+      "blockchainlion-img-1.jpg",
+      "blockchainlion-img-2.jpg",
+      "blockchainlion-img-3.jpg",
+      "blockchainlion-img-4.jpg"
+    ],
+    "skills": [
+      "Wordpress", "Technical Blogging", "PHP", "SQL", "PHPmyadmin"
+    ],
+    "status": {
+      "label": "Active",
+      "details": "This project is active. I write articles whenever I have free time."
+    },
+    "links": {
+      "demo": "https://blockchainlion.com",
+      "source code": "",
+      "press": ["https://medium.com/digital-diplomacy/blockchain-and-government-can-they-work-together-c57e574c6d09"]
+    }
+  }
+]
