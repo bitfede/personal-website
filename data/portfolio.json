@@ -1,6 +1,7 @@
 [
   {
     "title": "NotarX - Decentralized File Notary",
+    "year": 2019,
     "description1": "NotarX is a decentralized appplication (dApp) that can certify a file instantly using a smart contract deployed on the Ethereum blockchain. The dApp takes the file hash locally and writes it into the blockchain with a timestamp",
     "lessons_learned": "Learned how to take a problem and solve it using blockchain technology. Also learned how to choose the best blockchain for specific use cases",
     "category": "Blockchain",
@@ -25,6 +26,7 @@
   },
   {
     "title": "BlockchainLion",
+    "year": 2017,
     "description1": "A blog that accumulates knowledge on blockchain related topics. The contents are curated by me and the articles all serve to explain various topic related to decentralized technologies and cryptocurrencies",
     "lessons_learned": "Learned how to assimilate complex technical concepts and summarize them as easy-to-read articles. Also learned how to get traffic to my blog through SEO and some social media",
     "category": "Blockchain",
@@ -49,6 +51,7 @@
   },
   {
     "title": "Decentralized Voting dApp",
+    "year": 2018,
     "description1": "A simple barebone voting web application that allows you to run a votation using the blockchain technology as its backbone. Specifically, the web app interacts with a smart contract deployed on the ethereum blockchain in order to register and retrieve votes",
     "lessons_learned": "This was the first dApp that I developed. It was a great introduction to smart contract programming",
     "category": "Blockchain",
@@ -70,6 +73,7 @@
   },
   {
     "title": "KEENN LLC",
+    "year": 2017,
     "description1": "Keenn is a boutique software development agency located in Miami FL. I co-founded it in 2017 together with another fellow computer science UM student. We solve problems of all kinds using software and automation and we have clients that go from small businesses to corporate enterprises. Check out more at keenn.com",
     "lessons_learned": "I learn every day how to grow a profitable service-based company. Since the problems to solve are always different, I learn how to be adaptable and to quickly get familiar with new concepts and tools.",
     "category": "Entrepreneurship",
@@ -93,6 +97,7 @@
   },
   {
     "title": "ItalianBartender",
+    "year": 2017,
     "description1": "ItalianBartender (ITB) is an online editorial that creates culturally relevant content about mixology and cocktails. In mid-2019 ITB became the #1 authority in Italy for all things bartendeing, mixology and bar chef. Our YouTube channel has plenty of cocktail recipes made by the some of the best bartenders in Italy",
     "lessons_learned": "Learned how to bootstrap an online editorial website from scratch. Learned how to effectively delegate marketing, social media and content creation to different partners. Also learned to understand traffic analytics and plan effective SEO and social campaigns.",
     "category": "Entrepreneurship",
@@ -117,6 +122,7 @@
   },
   {
     "title": "CustomVolley",
+    "year": 2018,
     "description1": "CustomVolley is a niche e-commerce website made for volleyball players. The peculiarity of this online store is that athletes can use an interactive 3D configurator to create and buy 100% personalized volleyball gear and clothing. The clothing and gear are made and printed in italy.",
     "lessons_learned": "Learned how to bootstrap an ecommerce from scratch. Learned how to automate time-consuming repetitive tasks such as order forwarding, fulfilling and shipping. Learned how to effectively delegate marketing, social media and promotional content creation to different partners. Learned to understand traffic analytics and plan effective SEO and social campaigns to boost sales.",
     "category": "Entrepreneurship",
@@ -140,7 +146,96 @@
     }
   },
   {
+    "title": "Subdomain Examiner",
+    "year": 2019,
+    "description1": "I created this open source security tool to automate the examination of subdomains found through the reconaissance phase of a security assessment. Specifically this tool uses nmap to port scan a list of subdomains, and sorts everything in a very convenient way using folders and timestamps.",
+    "lessons_learned": "I learned more about nmap and its automation capabilities. I brushed up on Python skills and learned to make a compact but usable security command line tool",
+    "category": "Cybersecurity",
+    "images": [
+      "subdomainexaminer-img-1.jpg",
+      "subdomainexaminer-img-2.jpg"
+    ],
+    "skills": [
+      "Cybersecurity", "Reconnaissance", "Python", "Nmap", "Script/Tool development", "Automation"
+    ],
+    "status": {
+      "label": "Active",
+      "details": "This tool is available and open source. Anyone can clone the github repository and use it."
+    },
+    "links": {
+      "demo": "",
+      "source code": "https://github.com/bitfede/subomain-examiner/tree/master",
+      "press": []
+    }
+  },
+  {
+    "title": "Independent Cybersecurity Research",
+    "year": 2019,
+    "description1": "I got involved with hackerone.com and became an independent security researcher on their platform. This means I independently perform security audots on web assets of companies both from private and public sector. My biggest achievement was to succesfully find and report a vulnerability to the US Department of Defense",
+    "lessons_learned": "I learned real-life and practical cybersecurity skills. Also learned all the phases of an attack, from recoinassance to explotation. Learned to make detailed security reports so that the target company's development team can fix the vulnerabilities before malicious actors can find them.",
+    "category": "Cybersecurity",
+    "images": [
+    ],
+    "skills": [
+      "Cybersecurity", "Web Security", "Reconnaissance", "Fingerprinting", "Exploitation", "Post-Exploitation", "Priviledge Escalation", "Forensics", "Nmap", "Report Writing", "Automation"
+    ],
+    "status": {
+      "label": "Active",
+      "details": "I am still a member of HackerOne.com and I perform security assessments whenever I have free time."
+    },
+    "links": {
+      "demo": "https://hackerone.com/bitfede",
+      "source code": "",
+      "press": []
+    }
+  },
+  {
+    "title": "Darkweb OSINT Tool",
+    "year": 2018,
+    "description1": "I wrote this tool for a cybersecurity class that I was teaching to a branch of the italian law enforcement sector. This command line software will scan a list of onion addressess to determine key information about them such as the presence of some kind of data, open services and much more. This script idea was taken from one of Justin Seitz's OSINT tools",
+    "lessons_learned": "I learned a lot about the encryption and all the mechanisms behind the Tor protocol and how hidden services work in the darkweb. Also learned what it means to perform open source intelligence (OSINT) and how to automate it.",
+    "category": "Cybersecurity",
+    "images": [
+    ],
+    "skills": [
+      "Cybersecurity", "Open Source Intelligence", "Automation", "Python", "Script Development", "Tor", "Cryptography", "Web Anonymization Tools"
+    ],
+    "status": {
+      "label": "Active",
+      "details": "This tool is available and open source. Anyone can clone the github repository and use it."
+    },
+    "links": {
+      "demo": "",
+      "source code": "https://github.com/bitfede/darkweb-open-source-intelligence",
+      "press": []
+    }
+  },
+  {
+    "title": "Bitcoin&Dark Web Intro Course",
+    "year": 2018,
+    "description1": "I created this course on bitcoin and dark web when I was hired by Progetto Europa to do a training to the \"Polizia di Stato\", one of italy's law enforcement agencies. The course consisted in a detailed introduction to bitcoin and dark web and how criminals use these technologies for malicious purposes. The course also teaches the fundamentals of OSINT (Open Source Intelligence).",
+    "lessons_learned": "Since I had to teach these topics to a law enforcement agency I really immersed myself and dug deep into each area. I fortified my technical understanding of how cryptocurrencies and dark web work, and I was able to distill the knowledge into an easy-to-understand course. I also learned a lot about cybercrime, how to intervene against it and how to prevent it.",
+    "category": "Cybersecurity",
+    "images": [
+      "lawenforcementcourse-img-1.jpg",
+      "lawenforcementcourse-img-2.jpg"
+    ],
+    "skills": [
+      "Cybersecurity", "Teaching", "Bitcoin", "Cryptocurrencies", "Dark Web", "Online Investigations", "Cybercrime", "Open Source Intelligence", "Tor", "Cryptography", "Web Anonymization Tools"
+    ],
+    "status": {
+      "label": "Active",
+      "details": "This course is available upon request."
+    },
+    "links": {
+      "demo": "",
+      "source code": "",
+      "press": []
+    }
+  },
+  {
     "title": "FROM?!? NBA Trivia",
+    "year": 2016,
     "description1": "I created this iOS app in 2018 during my internship at Blubeta, a Wynwood dev shop. The app connects to a Node backend that keeps track of the scores and activity. The mobile app has anti-cheating mechanisms and has a very intuitive UX.",
     "lessons_learned": "I learned a lot about mobile native apps and the whole apple store process to publish them. I also gained more experience in backend development and learned quickly a new NodeJS framework called LoopbackJS.",
     "category": "Web",
@@ -164,8 +259,9 @@
   },
   {
     "title": "JamHero",
+    "year": 2016,
     "description1": "This web application is a platform for musicians to quickly find musical tracks to jam over. It was made as the final project of my IronHack web dev bootcamp. It won the #3 place at the IronHack Miami Hackshow in the summer of 2016.",
-    "lessons_learned": "I learned the Ruby on Rails framework pretty deeply. Also earned experience in handling, deploying and maintaining a monolithic stack. Learned a lot of SQL as well and last but not least, the YouTube API.",
+    "lessons_learned": "I learned the Ruby on Rails framework pretty deeply. Also earned experience in handling, deploying and maintaining a monolithic stack. Learned a lot of SQL as well and last but not least the YouTube API.",
     "category": "Web",
     "images": [
       "jamhero-img-1.jpg",
@@ -187,6 +283,7 @@
   },
   {
     "title": "Bitcoin Kenya",
+    "year": 2018,
     "description1": "I created this website in order to aggregate all the best Bitcoin resources/websites/platforms for Kenya residents. Kenya is one of the countries that in my opinion would get a lot of benefits from a more widespread Bitcoin adoption.",
     "lessons_learned": "I learned to use pre-rendered React. Specifically the PreactJS library. Also got more experience with front-end skills. On a side note I also learned more about the Bitcoin ecosystem in Kenya.",
     "category": "Web",
@@ -209,6 +306,7 @@
   },
   {
     "title": "Invisible Glass",
+    "year": 2018,
     "description1": "I created a fast website for a company called Techlit, which was needed for the launch of a product called Invisible Glass. The website is made with modern JS-based frameworks and it is blazing fast",
     "lessons_learned": "Learned GatsbyJS in more detail. Learned how to optimize a site for speed and performace. Gained more experience with dealing with a corporate client as an independent contractor.",
     "category": "Web",
@@ -233,6 +331,7 @@
   },
   {
     "title": "Bricocenter Kiosk Web Interface",
+    "year": 2018,
     "description1": "I was commissioned to make a simple web interface to be placed on 1920x1080 kiosks in several Bricocenter retail locations in Italy.",
     "lessons_learned": "Developing web interfaces for screens different than the laptop and mobile ones.",
     "category": "Web",
@@ -253,4 +352,69 @@
       "press": []
     }
   },
+  {
+    "title": "Nutrition Scale (CS50X)",
+    "year": 2015,
+    "description1": "As a final project for Harvard's Introduction of Computer Science online course I took a shipping USB scale and hacked it into a nutrition scale.",
+    "lessons_learned": "Learned well the USB protocol, how to interact with hardware with code and got really fast with Python development.",
+    "category": "Hardware",
+    "images": [
+    ],
+    "skills": [
+      "USB Protocol", "Hardware Hacking", "Python"
+    ],
+    "status": {
+      "label": "Inactive",
+      "details": "This was a final project for a university course, I abandoned it after the course was over."
+    },
+    "links": {
+      "demo": "https://www.youtube.com/watch?v=QZnkYcQeHk0",
+      "source code": "",
+      "press": []
+    }
+  },
+  {
+    "title": "Zeit UptimeRobot Integration",
+    "year": 2019,
+    "description1": "For the Zeit Integrations hackathon I created an integration with the UptimeRobot service. This integration lets you monitor all of your Zeit deployments directly from your account dashboard.",
+    "lessons_learned": "Learned how to adapt my skills to a new platform fast. Learned why uptime monitoring is important and learned to work and deliver results under a strict time constraint of 48 hours.",
+    "category": "Misc",
+    "images": [
+    ],
+    "skills": [
+      "JavaScript", "Zeit Now API", "Learning Fast", "UptimeRobot API"
+    ],
+    "status": {
+      "label": "Active",
+      "details": "This integration is currently present in the Zeit marketplace."
+    },
+    "links": {
+      "demo": "",
+      "source code": "https://github.com/bitfede/now-uptimerobot-integration",
+      "press": []
+    }
+  },
+  {
+    "title": "The WeatherBot",
+    "year": 2018,
+    "description1": "WeatherBot is a bot that lives in facebook and responds thru FB messenger 24/7. You can ask him what is the weather in any city. The bot will query a weather API and get back the results right in the chat in human readable format.",
+    "lessons_learned": "I learned how bots works and how to program one. Learned how to integrate bots into popular messaging platforms such as Facebook, Slack and others. Got more experience in working with API",
+    "category": "Misc",
+    "images": [
+      "weatherbot-img-1.jpg",
+      "weatherbot-img-2.jpg"
+    ],
+    "skills": [
+      "JavaScript", "Bot Frameworks", "Facebook Integrations", "Weather API"
+    ],
+    "status": {
+      "label": "Inactive",
+      "details": "The bot is live, but due to breaking changes of the platforms and frameworks used it is unresponsive and needs maintenance in order to work again."
+    },
+    "links": {
+      "demo": "https://www.facebook.com/weatherbotofficial",
+      "source code": "https://github.com/bitfede/weatherbot",
+      "press": []
+    }
+  }
 ]
