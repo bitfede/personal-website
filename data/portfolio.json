@@ -1,6 +1,6 @@
 [
   {
-    "title": "NotarX - Decentralized File Notary",
+    "title": "NotarX: Decentralized File Notary",
     "year": 2019,
     "description1": "NotarX is a decentralized appplication (dApp) that can certify a file instantly using a smart contract deployed on the Ethereum blockchain. The dApp takes the file hash locally and writes it into the blockchain with a timestamp",
     "lessons_learned": "Learned how to take a problem and solve it using blockchain technology. Also learned how to choose the best blockchain for specific use cases",
@@ -211,7 +211,7 @@
     }
   },
   {
-    "title": "Bitcoin&Dark Web Intro Course",
+    "title": "Bitcoin&Dark Web Course Teacher",
     "year": 2018,
     "description1": "I created this course on bitcoin and dark web when I was hired by Progetto Europa to do a training to the \"Polizia di Stato\", one of italy's law enforcement agencies. The course consisted in a detailed introduction to bitcoin and dark web and how criminals use these technologies for malicious purposes. The course also teaches the fundamentals of OSINT (Open Source Intelligence).",
     "lessons_learned": "Since I had to teach these topics to a law enforcement agency I really immersed myself and dug deep into each area. I fortified my technical understanding of how cryptocurrencies and dark web work, and I was able to distill the knowledge into an easy-to-understand course. I also learned a lot about cybercrime, how to intervene against it and how to prevent it.",
