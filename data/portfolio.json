@@ -1,6 +1,6 @@
 [
   {
-    "title": "NotarX: Decentralized File Notary",
+    "title": "NotarX: Decentralized Notary",
     "year": 2019,
     "description1": "NotarX is a decentralized appplication (dApp) that can certify a file instantly using a smart contract deployed on the Ethereum blockchain. The dApp takes the file hash locally and writes it into the blockchain with a timestamp",
     "lessons_learned": "Learned how to take a problem and solve it using blockchain technology. Also learned how to choose the best blockchain for specific use cases",
@@ -92,13 +92,13 @@
     "links": {
       "demo": "https://keenn.com",
       "source code": "https://github.com/keennteam/",
-      "press": ["https://www.instagram.com/keennteam/", ]
+      "press": ["https://www.instagram.com/keennteam/" ]
     }
   },
   {
     "title": "ItalianBartender",
     "year": 2017,
-    "description1": "ItalianBartender (ITB) is an online editorial that creates culturally relevant content about mixology and cocktails. In mid-2019 ITB became the #1 authority in Italy for all things bartendeing, mixology and bar chef. Our YouTube channel has plenty of cocktail recipes made by the some of the best bartenders in Italy",
+    "description1": "ItalianBartender (ITB) is an online editorial that creates culturally relevant content about mixology and cocktails. In mid-2019 we became the #1 authority in Italy for all things bartendeing, mixology and bar chef. Our YouTube channel has plenty of cocktail recipes made by the some of the best bartenders in Italy",
     "lessons_learned": "Learned how to bootstrap an online editorial website from scratch. Learned how to effectively delegate marketing, social media and content creation to different partners. Also learned to understand traffic analytics and plan effective SEO and social campaigns.",
     "category": "Entrepreneurship",
     "images": [
@@ -269,7 +269,7 @@
       "jamhero-img-3.jpg"
     ],
     "skills": [
-      "Web Development", "Full-Stack Developmtn" "Ruby on Rails", "Rails", "PostgreSQL", "Heroku", "YouTube API"
+      "Web Development", "Full-Stack Development", "Ruby on Rails", "Rails", "PostgreSQL", "Heroku", "YouTube API"
     ],
     "status": {
       "label": "Active",

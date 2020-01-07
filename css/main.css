@@ -215,13 +215,18 @@ textarea {
 }
 
 .projectInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 15px;
   color: white;
+  height: 400px;
 }
 
 .projectInfo h3 {
   margin-top: 0;
-  font-size: 1.8rem;
+  width: 240px;
+  font-size: 1.4rem;
   text-decoration: underline;
 }
 
@@ -236,18 +241,45 @@ textarea {
   border-radius: 50px;
 } */
 
+.portfolioBoxIcon {
+  position: relative;
+  top: -90px;
+  left: 262px;
+}
+
+.titleIcon {
+  display: flex;
+  margin-bottom: -10px;
+  justify-content: space-between;
+}
+
+.categoryIcon {
+  position: relative;
+  top: -44px;
+  /* left: 33px; */
+  width: 55px;
+  height: 55px;
+  max-height: 55px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.skillPillsContainer {
+  display: inline;
+  line-height: 30px;
+}
 
 .skillBadge {
-  display: inline-block;
-  background-color: red;
   padding: 3px;
   border-radius: 4px;
   margin-top: 5px;
 }
 
-@media (min-) {
-
+.moreInfoBtn {
+  margin-top: 20px;
 }
+
 
 /* ANIMATIONS */
 
