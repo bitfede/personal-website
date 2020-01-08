@@ -74,7 +74,7 @@
   {
     "title": "KEENN LLC",
     "year": 2017,
-    "description1": "Keenn is a boutique software development agency located in Miami FL. I co-founded it in 2017 together with another fellow computer science UM student. We solve problems of all kinds using software and automation and we have clients that go from small businesses to corporate enterprises. Check out more at keenn.com",
+    "description1": "Keenn is a boutique software development agency in Miami FL. I co-founded it in 2017 together with a fellow computer science UM student. We have clients that go from small businesses to corporate enterprises and we solve business challenges of all kinds using software and automation. Check out more at keenn.com!",
     "lessons_learned": "I learn every day how to grow a profitable service-based company. Since the problems to solve are always different, I learn how to be adaptable and to quickly get familiar with new concepts and tools.",
     "category": "Entrepreneurship",
     "images": [
@@ -171,7 +171,7 @@
   {
     "title": "Independent Cybersecurity Research",
     "year": 2019,
-    "description1": "I got involved with hackerone.com and became an independent security researcher on their platform. This means I independently perform security audots on web assets of companies both from private and public sector. My biggest achievement was to succesfully find and report a vulnerability to the US Department of Defense",
+    "description1": "I got involved with hackerone.com and became a security researcher on their platform. This means I independently perform security audots on web assets of companies both from private and public sector. My biggest achievement was to succesfully find and report a vulnerability to the US Department of Defense",
     "lessons_learned": "I learned real-life and practical cybersecurity skills. Also learned all the phases of an attack, from recoinassance to explotation. Learned to make detailed security reports so that the target company's development team can fix the vulnerabilities before malicious actors can find them.",
     "category": "Cybersecurity",
     "images": [
@@ -340,7 +340,7 @@
       "bricocenter-img-2.jpg"
     ],
     "skills": [
-      "Web Development", "HTML&CSS", "JavaScript"
+      "Web Development", "Front-End Development" , "HTML&CSS", "JavaScript", "Large Screens UI Development", "UX"
     ],
     "status": {
       "label": "Unknown",

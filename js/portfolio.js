@@ -3,7 +3,7 @@
 // -------------------------
 
 var portfolioPageState = {
-  selectedCategory: 'all'
+  selectedCategory: 'All'
 }
 
 var pillColors = [
@@ -76,7 +76,7 @@ function generatePortfolioCards(portfolioData) {
   $('#pCategory').empty().append(filterCategory)
   //loop thru the portfolio items and filter by category
   $.each(portfolioData, function(index, pItem) {
-    if (filterCategory === 'all') {
+    if (filterCategory === 'All') {
       pCards = pCards.add(createCard(pItem))
     } else {
       if (pItem.category === filterCategory) {
