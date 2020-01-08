@@ -1,3 +1,11 @@
+// -------------------------
+// global variables and functions
+// -------------------------
+
+var portfolioPageState = {
+  selectedCategory: 'all'
+}
+
 var pillColors = [
   'red darken-1',
   'pink darken-1',
@@ -14,7 +22,7 @@ var pillColors = [
 
 function generateSkillPills(skills) {
   var theseColors = [...pillColors]
-  console.log(pillColors);
+  // console.log(pillColors);
   var skillsTemplate = []
   $.each(skills, function(index, skill) {
     var randomNum = Math.floor(Math.random() * theseColors.length);
@@ -62,12 +70,37 @@ function createCard(cardData, cardIndex) {
 }
 
 
+function generatePortfolioCards(portfolioData) {
+  var pCards = $();
+  var filterCategory = portfolioPageState.selectedCategory;
+  $('#pCategory').empty().append(filterCategory)
+  //loop thru the portfolio items and filter by category
+  $.each(portfolioData, function(index, pItem) {
+    if (filterCategory === 'all') {
+      pCards = pCards.add(createCard(pItem))
+    } else {
+      if (pItem.category === filterCategory) {
+        pCards = pCards.add(createCard(pItem))
+      }
+    }
+  })
+
+  $('.portfolioCardsContainer').append(pCards);
+}
+
+// -------------------------
+// Page JS logic
+// -------------------------
+
 $( document ).ready(function() {
 
   //animate in titles!
   $( "#welcome" ).fadeTo( 500, '1' , function() {
     $( "#fede" ).fadeTo( 300, '1');
   });
+
+  //initialize dropdown
+  $('.dropdown-trigger').dropdown();
 
   //-----
   // Create portfolio cards
@@ -76,12 +109,15 @@ $( document ).ready(function() {
   //import JSON
   console.log('start');
   $.getJSON('data/portfolio.json', function(portfolioData) {
-    var pCards = $();
-    $.each(portfolioData, function(index, pItem) {
-      pCards = pCards.add(createCard(pItem))
+    generatePortfolioCards(portfolioData)
+    //listen for clicks to re-filter cards
+    $('.liCategoryItem').click( function (event) {
+      console.log(event.target.text);
+      portfolioPageState.selectedCategory = event.target.text.charAt(0).toUpperCase() +  event.target.text.toLowerCase().substring(1)
+      $('.portfolioCardsContainer').empty()
+      generatePortfolioCards(portfolioData)
     })
 
-    $('.portfolioCardsContainer').append(pCards);
   })
 
 });

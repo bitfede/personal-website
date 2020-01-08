@@ -194,10 +194,25 @@ textarea {
 /* PORTFOLIO PAGE STYLES HERE */
 
 .welcomeportfolio {
-    color: white;
-    font-weight: 900;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  color: white;
+  font-weight: 900;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.categoryMenuCont {
+  display: flex;
+  flex-direction: row;
+}
+
+.categoryMenuCont i {
+  color: white;
+}
+
+#categoryDropdown {
+  width: auto !important;
+  border-radius: 10px;
+  margin-left: 5px;
 }
 
 .welcomesubtitle {
