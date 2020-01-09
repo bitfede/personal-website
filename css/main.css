@@ -299,6 +299,7 @@ textarea {
 }
 
 .skillBadge {
+  color: white;
   padding: 3px;
   border-radius: 4px;
   margin-top: 5px;
@@ -308,6 +309,94 @@ textarea {
   margin-top: 20px;
 }
 
+/* modal styles */
+
+.pImagesContainer {
+
+
+}
+
+.portfolioImages {
+  margin-top: 5px;
+  margin-bottom: 7px;
+  border: 2px lightgrey solid;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.pDetailStatus {
+  color: white;
+  display: inline-block;
+  background-color: black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.activeBadge {
+  margin-right: 8px;
+  margin-left: 6px;
+  position: relative;
+  top: -2px;
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background-color: #4cd137;
+  border-radius: 50px;
+}
+
+.inactiveBadge {
+  margin-right: 8px;
+  margin-left: 6px;
+  position: relative;
+  top: -2px;
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background-color: #eb2f06;
+  border-radius: 50px;
+}
+
+
+.unknownBadge {
+  margin-right: 8px;
+  margin-left: 6px;
+  position: relative;
+  top: -2px;
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background-color: #ecf0f1;
+  border-radius: 50px;
+}
+
+.srcCodeModalBtn {
+  margin-bottom: 8px;
+}
+
+.demoModalBtn {
+  margin-bottom: 8px;
+}
+
+.otherLinksModal {
+  word-break: break-all;
+  margin-bottom: 10px;
+}
+
+.bulletPoint {
+  margin-right: 8px;
+  margin-left: 6px;
+  position: relative;
+  top: -3px;
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background-color: black;
+  border-radius: 50px;
+}
+
+.spacerLinks {
+  height: 7px;
+}
 
 /* ANIMATIONS */
 

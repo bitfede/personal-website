@@ -62,13 +62,12 @@ function createCard(cardData, cardIndex) {
     '<div class="skillPillsContainer">',
     generateSkillPills(cardData.skills),
     '</div>',
-    '<a id="pCard' + cardIndex + '" class="waves-effect waves-light btn moreInfoBtn green"><i class="material-icons right">info</i>More Info</a>'
+    '<a href="#portfolioDetailModal" id="pCard-' + cardIndex + '" class="waves-effect waves-light btn modal-trigger moreInfoBtn green"><i class="material-icons right">info</i>More Info</a>'
   ];
 
   // a jQuery node
   return $(cardTemplate.join(''));
 }
-
 
 function generatePortfolioCards(portfolioData) {
   var pCards = $();
@@ -77,15 +76,77 @@ function generatePortfolioCards(portfolioData) {
   //loop thru the portfolio items and filter by category
   $.each(portfolioData, function(index, pItem) {
     if (filterCategory === 'All') {
-      pCards = pCards.add(createCard(pItem))
+      pCards = pCards.add(createCard(pItem, index))
     } else {
       if (pItem.category === filterCategory) {
-        pCards = pCards.add(createCard(pItem))
+        pCards = pCards.add(createCard(pItem, index))
       }
     }
   })
 
   $('.portfolioCardsContainer').append(pCards);
+}
+
+function generatePortfolioImages(images) {
+  var theImages = []
+  $.each(images, function(index, image) {
+    theImages.push('<img class="responsive-img materialboxed portfolioImages" src="img/portfolio/' + image + '" />')
+  })
+  return theImages.join(' ')
+}
+
+function generateStatusInfo(status) {
+  var theStatus = '<div class="pDetailStatus"><span class="' + status.label.toLowerCase() + 'Badge"></span>' + status.label + '</div></p> <p>' + status.details + '</p>'
+  return theStatus
+}
+
+function generateDemoSrcLinks(links) {
+  var theLinks = []
+  if (links.demo !== "" || links.source_code !== "") {
+    theLinks.push('<p><strong><u>DEMO / SOURCE CODE:</u></strong></p>')
+    if (links.demo !== "") {
+      theLinks.push('<a href="' + links.demo + '"  target="_blank" class="btn blue demoModalBtn">Demo</a>')
+    }
+    if (links.source_code !== "") {
+      theLinks.push('<a href="' + links.source_code + '" target="_blank" class="btn orange srcCodeModalBtn">Source code</a>')
+    }
+  }
+
+  if (links.press.length > 0) {
+    theLinks.push('<p><strong><u>RELATED LINKS:</u></strong></p>')
+    $.each(links.press, function(index, link) {
+      theLinks.push('<span class="bulletPoint"></span><a href="' + link + '" target="_blank" class="otherLinksModal">' + link + '</a><br/><div class="spacerLinks" />')
+    })
+  }
+
+  return theLinks.join(' ')
+}
+
+// MODAL TEMPLATE GENERATION
+function fillDetailsModal(pItemDetails) {
+  $('.modal-content').empty();
+  var pModal = $();
+  console.log(pItemDetails);
+  var modalTemplate = [
+    '<h5>' + pItemDetails.title + '</h5>',
+    '<p><strong><u>YEAR:</u></strong> '+ pItemDetails.year + '</p>',
+    '<p><strong><u>DESCRIPTION:</u></strong></p>',
+    '<p>' + pItemDetails.description1 + '</p>',
+    '<p><strong><u>LESSONS LEARNED:</u></strong></p>',
+    '<p>' + pItemDetails.lessons_learned + '</p>',
+    '<p><strong><u>IMAGES / SCREENSHOTS:</u></strong></p>',
+    generatePortfolioImages(pItemDetails.images),
+    '<p><strong><u>SKILLS:</u></strong></p>',
+    '<div class="skillPillsContainer">',
+    generateSkillPills(pItemDetails.skills),
+    '</div>',
+    '<p><strong><u>STATUS:</u></strong>',
+    generateStatusInfo(pItemDetails.status),
+    generateDemoSrcLinks(pItemDetails.links)
+  ]
+  pModal = pModal.add($(modalTemplate.join('')))
+  $('.modal-content').append(pModal);
+  $('.materialboxed').materialbox();
 }
 
 // -------------------------
@@ -102,6 +163,9 @@ $( document ).ready(function() {
   //initialize dropdown
   $('.dropdown-trigger').dropdown();
 
+  //initialize modal
+  $('.modal').modal();
+
   //-----
   // Create portfolio cards
   //-----
@@ -110,14 +174,19 @@ $( document ).ready(function() {
   console.log('start');
   $.getJSON('data/portfolio.json', function(portfolioData) {
     generatePortfolioCards(portfolioData)
-    //listen for clicks to re-filter cards
+
+    //cards filtering logic
     $('.liCategoryItem').click( function (event) {
-      console.log(event.target.text);
       portfolioPageState.selectedCategory = event.target.text.charAt(0).toUpperCase() +  event.target.text.toLowerCase().substring(1)
       $('.portfolioCardsContainer').empty()
       generatePortfolioCards(portfolioData)
     })
 
+    //more info modal logic
+    $('.moreInfoBtn').click( function (event) {
+      var pItemIndex = event.target.id.split('-')[1]
+      fillDetailsModal(portfolioData[pItemIndex])
+    })
   })
 
 });

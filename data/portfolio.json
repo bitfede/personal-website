@@ -20,7 +20,7 @@
     },
     "links": {
       "demo": "https://notarx.com",
-      "source code": "https://github.com/bitfede/file-validation-certification-dapp",
+      "source_code": "https://github.com/bitfede/file-validation-certification-dapp",
       "press": ["https://blockchainlion.com/blockchain-notary-5-minute-file-certification-without-intermediaries/"]
     }
   },
@@ -45,7 +45,7 @@
     },
     "links": {
       "demo": "https://blockchainlion.com",
-      "source code": "",
+      "source_code": "",
       "press": ["https://medium.com/digital-diplomacy/blockchain-and-government-can-they-work-together-c57e574c6d09"]
     }
   },
@@ -62,12 +62,12 @@
       "Truffle Suite", "Solidity", "Smart Contract Programming", "Web3 JS"
     ],
     "status": {
-      "label": "Offline",
+      "label": "Inactive",
       "details": "This project was not deployed live, but only on a local machine."
     },
     "links": {
       "demo": "",
-      "source code": "https://github.com/bitfede/ethereum-voting-dapp",
+      "source_code": "https://github.com/bitfede/ethereum-voting-dapp",
       "press": []
     }
   },
@@ -91,7 +91,7 @@
     },
     "links": {
       "demo": "https://keenn.com",
-      "source code": "https://github.com/keennteam/",
+      "source_code": "https://github.com/keennteam/",
       "press": ["https://www.instagram.com/keennteam/" ]
     }
   },
@@ -116,7 +116,7 @@
     },
     "links": {
       "demo": "https://italianbartender.com",
-      "source code": "",
+      "source_code": "",
       "press": ["https://www.instagram.com/italian_bartender_official/", "https://www.youtube.com/channel/UCl42GFpxdJvr9hQdrSz0XuQ"]
     }
   },
@@ -141,7 +141,7 @@
     },
     "links": {
       "demo": "https://customvolley.com",
-      "source code": "",
+      "source_code": "",
       "press": ["https://www.instagram.com/customvolley/", "https://www.youtube.com/channel/UCJB7tykXBAX8br2dB9VnSYg"]
     }
   },
@@ -164,7 +164,7 @@
     },
     "links": {
       "demo": "",
-      "source code": "https://github.com/bitfede/subomain-examiner/tree/master",
+      "source_code": "https://github.com/bitfede/subomain-examiner/tree/master",
       "press": []
     }
   },
@@ -185,7 +185,7 @@
     },
     "links": {
       "demo": "https://hackerone.com/bitfede",
-      "source code": "",
+      "source_code": "",
       "press": []
     }
   },
@@ -206,15 +206,15 @@
     },
     "links": {
       "demo": "",
-      "source code": "https://github.com/bitfede/darkweb-open-source-intelligence",
+      "source_code": "https://github.com/bitfede/darkweb-open-source-intelligence",
       "press": []
     }
   },
   {
     "title": "Bitcoin&Dark Web Course Teacher",
     "year": 2018,
-    "description1": "I created this course on bitcoin and dark web when I was hired by Progetto Europa to do a training to the \"Polizia di Stato\", one of italy's law enforcement agencies. The course consisted in a detailed introduction to bitcoin and dark web and how criminals use these technologies for malicious purposes. The course also teaches the fundamentals of OSINT (Open Source Intelligence).",
-    "lessons_learned": "Since I had to teach these topics to a law enforcement agency I really immersed myself and dug deep into each area. I fortified my technical understanding of how cryptocurrencies and dark web work, and I was able to distill the knowledge into an easy-to-understand course. I also learned a lot about cybercrime, how to intervene against it and how to prevent it.",
+    "description1": "I created this course on bitcoin and dark web when I was hired by Progetto Europa to do a training to the \"Polizia di Stato\", one of italy's main law enforcement agencies. The course consisted in a detailed introduction to bitcoin and dark web and how criminals use these technologies for malicious purposes. The course also teaches the fundamentals of OSINT (Open Source Intelligence).",
+    "lessons_learned": "Since I had to teach these topics to a group of law enforcement professionals I really immersed myself and dug deep into each area. I fortified my technical understanding of how cryptocurrencies and dark web work, and I was able to distill the knowledge into an easy-to-understand course. I also learned a lot about cybercrime, how to intervene against it and how to prevent it.",
     "category": "Cybersecurity",
     "images": [
       "lawenforcementcourse-img-1.jpg",
@@ -229,7 +229,7 @@
     },
     "links": {
       "demo": "",
-      "source code": "",
+      "source_code": "",
       "press": []
     }
   },
@@ -248,12 +248,12 @@
       "Mobile Development", "React Native", "iOS Development", "LoopbackJS", "JavaScript", "AWS"
     ],
     "status": {
-      "label": "Discontinued",
+      "label": "Inactive",
       "details": "After my internship this app was put aside and therefore removed from the app store."
     },
     "links": {
       "demo": "",
-      "source code": "",
+      "source_code": "",
       "press": []
     }
   },
@@ -277,7 +277,7 @@
     },
     "links": {
       "demo": "http://jamhero.co",
-      "source code": "",
+      "source_code": "",
       "press": []
     }
   },
@@ -300,7 +300,7 @@
     },
     "links": {
       "demo": "https://bitcoin.info.ke/",
-      "source code": "https://github.com/bitfede/directorywebsite-generic",
+      "source_code": "https://github.com/bitfede/directorywebsite-generic",
       "press": []
     }
   },
@@ -312,9 +312,9 @@
     "category": "Web",
     "images": [
       "invisible-img-1.jpg",
-      "invisible-img-2.jpg",
-      "invisible-img-3.jpg",
-      "invisible-img-4.jpg"
+      "invisible-img-2.png",
+      "invisible-img-3.png",
+      "invisible-img-4.png"
     ],
     "skills": [
       "Web Development", "GatsbyJS", "ReactJS", "Front-end Development", "HTML&CSS", "Javascript", "Page Speed Optimization"
@@ -325,7 +325,7 @@
     },
     "links": {
       "demo": "http://invisibletechlit.com",
-      "source code": "https://github.com/bitfede/invisible-website",
+      "source_code": "https://github.com/bitfede/invisible-website",
       "press": ["https://www.linkedin.com/showcase/invisibletech/about/"]
     }
   },
@@ -348,7 +348,7 @@
     },
     "links": {
       "demo": "",
-      "source code": "https://github.com/bitfede/bricocenter-kiosk",
+      "source_code": "https://github.com/bitfede/bricocenter-kiosk",
       "press": []
     }
   },
@@ -361,7 +361,7 @@
     "images": [
     ],
     "skills": [
-      "USB Protocol", "Hardware Hacking", "Python"
+      "USB Protocol", "Hardware Hacking", "Python", "Rapid Development", "Learning Fast"
     ],
     "status": {
       "label": "Inactive",
@@ -369,7 +369,7 @@
     },
     "links": {
       "demo": "https://www.youtube.com/watch?v=QZnkYcQeHk0",
-      "source code": "",
+      "source_code": "",
       "press": []
     }
   },
@@ -382,7 +382,7 @@
     "images": [
     ],
     "skills": [
-      "JavaScript", "Zeit Now API", "Learning Fast", "UptimeRobot API"
+      "JavaScript", "Zeit Now API", "Time Sensitive Development", "UptimeRobot API"
     ],
     "status": {
       "label": "Active",
@@ -390,7 +390,7 @@
     },
     "links": {
       "demo": "",
-      "source code": "https://github.com/bitfede/now-uptimerobot-integration",
+      "source_code": "https://github.com/bitfede/now-uptimerobot-integration",
       "press": []
     }
   },
@@ -413,7 +413,7 @@
     },
     "links": {
       "demo": "https://www.facebook.com/weatherbotofficial",
-      "source code": "https://github.com/bitfede/weatherbot",
+      "source_code": "https://github.com/bitfede/weatherbot",
       "press": []
     }
   }
