@@ -25,6 +25,74 @@
     }
   },
   {
+    "title": "KEENN LLC",
+    "year": 2017,
+    "description1": "Keenn is a boutique software development agency in Miami FL. I co-founded it in 2017 together with a fellow computer science UM colleague. We have clients that go from small businesses to corporate enterprises and we solve business challenges of all kinds using software and automation. Check out more at keenn.com!",
+    "lessons_learned": "I learn every day how to grow a profitable service-based company. Since the problems to solve are always different, I learn how to be adaptable and to quickly get familiar with new concepts and tools.",
+    "category": "Entrepreneurship",
+    "images": [
+      "keenn-img-1.jpg",
+      "keenn-img-2.jpg",
+      "keenn-img-3.jpg"
+    ],
+    "skills": [
+      "Entrepreneurship", "Leadership", "Decision-Making", "Remote Work", "Technical Architecture", "Full-Stack Development", "DevOps", "Talent Recruiting", "Marketing"
+    ],
+    "status": {
+      "label": "Active",
+      "details": "This company is currently active and legally operating in the state of Florida."
+    },
+    "links": {
+      "demo": "https://keenn.com",
+      "source_code": "https://github.com/keennteam/",
+      "press": ["https://www.instagram.com/keennteam/" ]
+    }
+  },
+  {
+    "title": "Subdomain Examiner",
+    "year": 2019,
+    "description1": "I created this open source security tool to automate the examination of subdomains found through the reconaissance phase of a security assessment. Specifically this tool uses nmap to port scan a list of subdomains, and sorts everything in a very convenient way using folders and timestamps.",
+    "lessons_learned": "I learned more about nmap and its automation capabilities. I brushed up on Python skills and learned to make a compact but usable security command line tool",
+    "category": "Cybersecurity",
+    "images": [
+      "subdomainexaminer-img-1.jpg",
+      "subdomainexaminer-img-2.jpg"
+    ],
+    "skills": [
+      "Cybersecurity", "Reconnaissance", "Python", "Nmap", "Script/Tool development", "Automation"
+    ],
+    "status": {
+      "label": "Active",
+      "details": "This tool is available and open source. Anyone can clone the github repository and use it."
+    },
+    "links": {
+      "demo": "",
+      "source_code": "https://github.com/bitfede/subomain-examiner/tree/master",
+      "press": []
+    }
+  },
+  {
+    "title": "Zeit UptimeRobot Integration",
+    "year": 2019,
+    "description1": "For the Zeit Integrations hackathon I created an integration with the UptimeRobot service. This integration lets you monitor all of your Zeit deployments directly from your account dashboard.",
+    "lessons_learned": "Learned how to adapt my skills to a new platform fast. Learned why uptime monitoring is important and learned to work and deliver results under a strict time constraint of 48 hours.",
+    "category": "Misc",
+    "images": [
+    ],
+    "skills": [
+      "JavaScript", "Zeit Now API", "Time Sensitive Development", "UptimeRobot API"
+    ],
+    "status": {
+      "label": "Active",
+      "details": "This integration is currently present in the Zeit marketplace."
+    },
+    "links": {
+      "demo": "https://zeit.co/integrations/uptimerobot-integration",
+      "source_code": "https://github.com/bitfede/now-uptimerobot-integration",
+      "press": []
+    }
+  },
+  {
     "title": "BlockchainLion",
     "year": 2017,
     "description1": "A blog that accumulates knowledge on blockchain related topics. The contents are curated by me and the articles all serve to explain various topic related to decentralized technologies and cryptocurrencies",
@@ -50,6 +118,27 @@
     }
   },
   {
+    "title": "Nutritional Scale (CS50X)",
+    "year": 2015,
+    "description1": "As a final project for Harvard's Introduction of Computer Science online course I took a shipping USB scale and hacked it into a nutrition scale.",
+    "lessons_learned": "Learned well the USB protocol, how to interact with hardware with code and got really fast with Python development.",
+    "category": "Hardware",
+    "images": [
+    ],
+    "skills": [
+      "USB Protocol", "Hardware Hacking", "Python", "Rapid Development", "Learning Fast"
+    ],
+    "status": {
+      "label": "Inactive",
+      "details": "This was a final project for a university course, I abandoned it after the course was over."
+    },
+    "links": {
+      "demo": "https://www.youtube.com/watch?v=QZnkYcQeHk0",
+      "source_code": "",
+      "press": []
+    }
+  },
+  {
     "title": "Decentralized Voting dApp",
     "year": 2018,
     "description1": "A simple barebone voting web application that allows you to run a votation using the blockchain technology as its backbone. Specifically, the web app interacts with a smart contract deployed on the ethereum blockchain in order to register and retrieve votes",
@@ -72,27 +161,24 @@
     }
   },
   {
-    "title": "KEENN LLC",
-    "year": 2017,
-    "description1": "Keenn is a boutique software development agency in Miami FL. I co-founded it in 2017 together with a fellow computer science UM student. We have clients that go from small businesses to corporate enterprises and we solve business challenges of all kinds using software and automation. Check out more at keenn.com!",
-    "lessons_learned": "I learn every day how to grow a profitable service-based company. Since the problems to solve are always different, I learn how to be adaptable and to quickly get familiar with new concepts and tools.",
-    "category": "Entrepreneurship",
+    "title": "Darkweb OSINT Tool",
+    "year": 2018,
+    "description1": "I wrote this tool for a cybersecurity class that I was teaching to a branch of the italian law enforcement sector. This command line software will scan a list of onion addressess to determine key information about them such as the presence of some kind of data, open services and much more. This script idea was taken from one of Justin Seitz's OSINT tools",
+    "lessons_learned": "I learned a lot about the encryption and all the mechanisms behind the Tor protocol and how hidden services work in the darkweb. Also learned what it means to perform open source intelligence (OSINT) and how to automate it.",
+    "category": "Cybersecurity",
     "images": [
-      "keenn-img-1.jpg",
-      "keenn-img-2.jpg",
-      "keenn-img-3.jpg"
     ],
     "skills": [
-      "Entrepreneurship", "Leadership", "Decision-Making", "Remote Work", "Technical Architecture", "Full-Stack Development", "DevOps", "Talent Recruiting", "Marketing"
+      "Cybersecurity", "Open Source Intelligence", "Automation", "Python", "Script Development", "Tor", "Cryptography", "Web Anonymization Tools"
     ],
     "status": {
       "label": "Active",
-      "details": "This company is currently active and legally operating in the state of Florida."
+      "details": "This tool is available and open source. Anyone can clone the github repository and use it."
     },
     "links": {
-      "demo": "https://keenn.com",
-      "source_code": "https://github.com/keennteam/",
-      "press": ["https://www.instagram.com/keennteam/" ]
+      "demo": "",
+      "source_code": "https://github.com/bitfede/darkweb-open-source-intelligence",
+      "press": []
     }
   },
   {
@@ -146,29 +232,6 @@
     }
   },
   {
-    "title": "Subdomain Examiner",
-    "year": 2019,
-    "description1": "I created this open source security tool to automate the examination of subdomains found through the reconaissance phase of a security assessment. Specifically this tool uses nmap to port scan a list of subdomains, and sorts everything in a very convenient way using folders and timestamps.",
-    "lessons_learned": "I learned more about nmap and its automation capabilities. I brushed up on Python skills and learned to make a compact but usable security command line tool",
-    "category": "Cybersecurity",
-    "images": [
-      "subdomainexaminer-img-1.jpg",
-      "subdomainexaminer-img-2.jpg"
-    ],
-    "skills": [
-      "Cybersecurity", "Reconnaissance", "Python", "Nmap", "Script/Tool development", "Automation"
-    ],
-    "status": {
-      "label": "Active",
-      "details": "This tool is available and open source. Anyone can clone the github repository and use it."
-    },
-    "links": {
-      "demo": "",
-      "source_code": "https://github.com/bitfede/subomain-examiner/tree/master",
-      "press": []
-    }
-  },
-  {
     "title": "Independent Cybersecurity Research",
     "year": 2019,
     "description1": "I got involved with hackerone.com and became a security researcher on their platform. This means I independently perform security audots on web assets of companies both from private and public sector. My biggest achievement was to succesfully find and report a vulnerability to the US Department of Defense",
@@ -186,27 +249,6 @@
     "links": {
       "demo": "https://hackerone.com/bitfede",
       "source_code": "",
-      "press": []
-    }
-  },
-  {
-    "title": "Darkweb OSINT Tool",
-    "year": 2018,
-    "description1": "I wrote this tool for a cybersecurity class that I was teaching to a branch of the italian law enforcement sector. This command line software will scan a list of onion addressess to determine key information about them such as the presence of some kind of data, open services and much more. This script idea was taken from one of Justin Seitz's OSINT tools",
-    "lessons_learned": "I learned a lot about the encryption and all the mechanisms behind the Tor protocol and how hidden services work in the darkweb. Also learned what it means to perform open source intelligence (OSINT) and how to automate it.",
-    "category": "Cybersecurity",
-    "images": [
-    ],
-    "skills": [
-      "Cybersecurity", "Open Source Intelligence", "Automation", "Python", "Script Development", "Tor", "Cryptography", "Web Anonymization Tools"
-    ],
-    "status": {
-      "label": "Active",
-      "details": "This tool is available and open source. Anyone can clone the github repository and use it."
-    },
-    "links": {
-      "demo": "",
-      "source_code": "https://github.com/bitfede/darkweb-open-source-intelligence",
       "press": []
     }
   },
@@ -349,48 +391,6 @@
     "links": {
       "demo": "",
       "source_code": "https://github.com/bitfede/bricocenter-kiosk",
-      "press": []
-    }
-  },
-  {
-    "title": "Nutrition Scale (CS50X)",
-    "year": 2015,
-    "description1": "As a final project for Harvard's Introduction of Computer Science online course I took a shipping USB scale and hacked it into a nutrition scale.",
-    "lessons_learned": "Learned well the USB protocol, how to interact with hardware with code and got really fast with Python development.",
-    "category": "Hardware",
-    "images": [
-    ],
-    "skills": [
-      "USB Protocol", "Hardware Hacking", "Python", "Rapid Development", "Learning Fast"
-    ],
-    "status": {
-      "label": "Inactive",
-      "details": "This was a final project for a university course, I abandoned it after the course was over."
-    },
-    "links": {
-      "demo": "https://www.youtube.com/watch?v=QZnkYcQeHk0",
-      "source_code": "",
-      "press": []
-    }
-  },
-  {
-    "title": "Zeit UptimeRobot Integration",
-    "year": 2019,
-    "description1": "For the Zeit Integrations hackathon I created an integration with the UptimeRobot service. This integration lets you monitor all of your Zeit deployments directly from your account dashboard.",
-    "lessons_learned": "Learned how to adapt my skills to a new platform fast. Learned why uptime monitoring is important and learned to work and deliver results under a strict time constraint of 48 hours.",
-    "category": "Misc",
-    "images": [
-    ],
-    "skills": [
-      "JavaScript", "Zeit Now API", "Time Sensitive Development", "UptimeRobot API"
-    ],
-    "status": {
-      "label": "Active",
-      "details": "This integration is currently present in the Zeit marketplace."
-    },
-    "links": {
-      "demo": "",
-      "source_code": "https://github.com/bitfede/now-uptimerobot-integration",
       "press": []
     }
   },

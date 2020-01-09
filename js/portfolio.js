@@ -164,7 +164,9 @@ $( document ).ready(function() {
   $('.dropdown-trigger').dropdown();
 
   //initialize modal
-  $('.modal').modal();
+  $('.modal').modal({
+    complete: function() {   $('.modal-content').empty() }
+  });
 
   //-----
   // Create portfolio cards
