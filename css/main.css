@@ -117,6 +117,12 @@ textarea {
     font-weight: 900;
 }
 
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 2.7rem;
+  }
+}
+
 .tester {
     border-width: 3px;
     border-style: solid;
