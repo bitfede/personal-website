@@ -183,8 +183,10 @@ $( document ).ready(function() {
     })
 
     //more info modal logic
-    $('.moreInfoBtn').click( function (event) {
+    $(document).on( 'click', '.moreInfoBtn', function (event) {
+      console.log('click');
       var pItemIndex = event.target.id.split('-')[1]
+      console.log(portfolioData);
       fillDetailsModal(portfolioData[pItemIndex])
     })
   })
