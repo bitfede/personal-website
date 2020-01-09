@@ -89,6 +89,9 @@ function generatePortfolioCards(portfolioData) {
 
 function generatePortfolioImages(images) {
   var theImages = []
+  if (images.length > 0) {
+    theImages.push('<p><strong><u>IMAGES / SCREENSHOTS:</u></strong></p>')
+  }
   $.each(images, function(index, image) {
     theImages.push('<img class="responsive-img materialboxed portfolioImages" src="img/portfolio/' + image + '" />')
   })
@@ -134,7 +137,6 @@ function fillDetailsModal(pItemDetails) {
     '<p>' + pItemDetails.description1 + '</p>',
     '<p><strong><u>LESSONS LEARNED:</u></strong></p>',
     '<p>' + pItemDetails.lessons_learned + '</p>',
-    '<p><strong><u>IMAGES / SCREENSHOTS:</u></strong></p>',
     generatePortfolioImages(pItemDetails.images),
     '<p><strong><u>SKILLS:</u></strong></p>',
     '<div class="skillPillsContainer">',
